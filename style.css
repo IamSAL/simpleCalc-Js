@@ -1,0 +1,217 @@
+.bodyCalc{
+
+    border-radius: 27.6px;
+
+    width: 454px;
+    height: 470px;
+
+    background-image: url("images/body.png") ;
+
+
+    position: absolute;
+    top: 22px;
+    bottom: 202px;
+    right: 466px;
+    left: 446px;
+}
+.canvas{
+
+}
+.desk{
+
+}
+.screen{
+
+    /* Style for "out" */
+    background-color: rgba(255, 61, 68, 0);
+    border-radius: 11px;
+    width: 388px;
+    height: 77px;
+    position: relative;
+    top: -278px;;
+    right: 27px;
+    left: 27px;
+    resize: none;
+    color: #242424;
+    font-family: "Digital -7";
+    font-size: 70px;
+    font-weight: 400;
+    overflow: hidden;
+    text-align: right;
+    border: none;
+
+}
+
+.screen3{
+
+    /* Style for "out" */
+    background-color: rgba(148, 35, 38, 0);
+    border-radius: 11px;
+    width: 120px;
+    height: 37px;
+    position: relative;
+    top: -339px;
+    right: 21px;
+    left: 38px;
+    resize: none;
+    color: #242424;
+    font-family: "Digital -7";
+    font-size: 20px;
+    font-weight: 350;
+    overflow: hidden;
+    text-align: right;
+    border: none;
+
+}
+
+textarea{
+
+}
+
+
+
+.screen2{
+    /* Style for "out" */
+    width: 400px;
+    height: 77px;
+    border-radius: 11px;
+    background-color: #b2b289;
+    background-image: linear-gradient(-15deg, rgba(255, 255, 255, 0) 42%, rgba(255, 255, 255, 0.04) 60%, rgba(255, 255, 255, 0.05) 65%, rgba(255, 255, 255, 0.13) 100%);
+    position: relative;
+    top: 51px;
+    right: 27px;
+    left: 27px;
+    resize: none;
+    color: #242424;
+    font-family: "Digital -7";
+    font-size: 75px;
+    font-weight: 400;
+    overflow: hidden;
+    text-align: right;
+
+}
+
+.title{
+    /* Style for "©SalC" */
+    width: 81px;
+    height: 17px;
+    color: #dcd9d9;
+    font-family: "Digital -7";
+
+    font-weight: 400;
+    /* Text style for "©" */
+    text-color: #c9c8c8;
+    font-size: 26px;
+    position: relative;
+    top: -61px;
+    bottom: 434px;
+    left: 38px;
+    right: 335px;
+
+}
+.one, .two, .three, .four{
+
+    /* Style for "numberButt" */
+    background-image: url("images/button.png");
+    background-color: #3a3737;
+    width: 69px;
+    height: 51px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.23);
+    border: 2px solid rgba(0, 0, 0, 0.28);
+
+    border-radius: 11px;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 41px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: unset;
+    padding: unset;
+    position: relative;
+    top: 40px;
+    border: 249px;
+    right: 351px;
+    left: 34px;
+    cursor: pointer;
+
+    outline: none !important;
+
+
+
+}
+.one:active{
+
+    box-shadow: 0 5px rgba(48, 48, 48, 0.91);
+    transform: translateY(2px);
+
+}
+.two:active{
+
+    box-shadow: 0 5px rgba(48, 48, 48, 0.91);
+    transform: translateY(2px);
+
+}
+.three:active{
+
+    box-shadow: 0 5px rgba(48, 48, 48, 0.91);
+    transform: translateY(2px);
+
+}
+.five:active{
+
+    box-shadow: 0 5px rgba(48, 48, 48, 0.91);
+    transform: translateY(2px);
+
+}
+.four:active{
+
+    box-shadow: 0 5px rgba(28, 28, 28, 0.91);
+    transform: translateY(2px);
+
+}
+
+
+.two{
+left: 70px;
+}
+.three{
+left: 100px;
+}
+.four{
+left: 130px;
+}
+.buttons2{
+    position: relative;
+    top: 25px;
+}
+.buttons3{
+    position: relative;
+    top: 50px;
+}
+.buttons4{
+    position: relative;
+    top: 75px;
+}
+.clear{
+    /* Style for "numberButt" */
+    background-image: url("images/button_clr.png");
+    background-color: #b73c3c;
+}
+.equal{
+    background-image: url("images/button_eql.png");
+    background-color: #0a743c;
+}
+.min{
+    position: relative;
+    top: -22px;
+}
+.plus,.minus,.multiply,.divide{
+    background-image: url("images/button_operator.png");
+    background-color: #22474b;
+}
+@font-face {
+    font-family: "Digital -7";
+    src: url(fonts/digital-7.ttf) format("truetype");
+}
+
